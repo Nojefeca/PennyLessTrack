@@ -1,0 +1,9 @@
+git clone https://github.com/USUARIO/REPO.git
+cd REPO
+git checkout main
+git pull
+
+echo "prueba" >> prueba.txt
+git add prueba.txt
+git commit -m "Prueba: push directo a main"
+git push origin main
